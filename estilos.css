@@ -1,0 +1,404 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+
+@font-face
+{
+    font-family: tipo;
+    src: url(Tipografia/OpenSans-Bold.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	line-height: 1;
+    
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.cont-imagen
+{
+    width: 100%;
+    height: 681px;
+    background-image: url(Imagenes/Fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.logo
+{
+    margin-left: 30px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+#menu
+{
+
+    width: 550px;
+    height: 40px;
+    margin-left:12px;
+    margin-top: 30px;
+    list-style: none;
+    position: absolute;
+    left: 57%;
+    
+    
+}
+
+ul li 
+{
+    float: left;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 16px;
+    font-family: tipo;
+}
+a
+{
+    text-decoration: none;
+    color: #f5f0ed;
+}
+
+.hamburguer {
+    display: none;
+    }
+
+
+
+
+
+.intro-parrafo
+{ 
+    width: 100%;
+    height: 260px;
+    margin-top: 235px;
+    position: absolute;
+}
+
+.primer-pa
+{
+    font-size: 44px;
+    color: #f5f0ed;
+    text-align: center;
+}
+.texto1
+{
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 4rem;
+    font-size: 20px;
+    color: #f5f0ed;
+    text-align: center;
+}
+
+
+.div-izquierda
+{
+    background-color: #d03b40;
+    width: 50%;
+    height: 400px;
+    display: inline-block;
+    text-align: center;
+}
+.texto-izquierda-div
+{
+
+    margin-top: 117px;
+    font-size: 30px;
+    vertical-align: middle;
+    color: #f5f0ed;
+}
+
+.parrafo-izq
+{
+    padding-top: 1rem;
+    font-size:20px;
+
+}
+
+.div-derecha
+{
+    background-color: #f5f0ed;
+    width: 50%;
+    height: 400px;
+    text-align: center;
+    float: right;
+}
+
+.texto-derecha-div
+{
+    margin-top: 117px;
+    font-size: 30px;
+    vertical-align: middle;
+    color: #d03b40;
+}
+
+.parrafo-derc
+{
+    padding-top: 1rem;
+    font-size:20px;
+}
+
+.cont-imagen2
+{
+    width: 100%;
+    height: 500px;
+    background-image: url(Imagenes/Fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Ven-a-desayunar
+{
+    font-size: 40px;
+    color: #f5f0ed;
+}
+
+.parrafo2
+{
+    margin-top: 3rem;
+    font-size: 20px;
+    color: #f5f0ed;
+    border-style: solid;
+}
+.ven
+{
+    border-bottom: solid;
+}
+
+/*EMPIEZA APARTADO ICONOS DE OFERTAS*/
+
+/*CONTENEDOR OFERTAS*/
+#ofertas
+{
+    width: 100%;
+    height: 590px;
+    margin-bottom: 0;
+    background-color: #f5f0ed;
+}
+
+/*PRIMER ICONO*/
+.cont-ofertas-1
+{
+    width: 50%;
+    height: 300px;
+    float: left;
+    position: relative;
+}
+
+.icono1
+{
+    float: left;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+h3
+{
+    font-size: 30px;
+}
+
+.cont-recien-hecho
+{
+    width: 65%;
+    height: auto;
+    float: right;
+    margin-top: 70px;
+    margin-right: 5px;
+    font-size: 16px;
+    color: #3c3c3b;
+}
+
+/*SEGUNDO ICONO*/
+.cont-ofertas-2
+{
+    width: 50%;
+    height: 300px;
+    float: right;
+    position: relative;
+    
+}
+
+.icono2
+{
+    float: left;
+    margin-top: 70px;
+    margin-left: 30px;
+    margin-right: 0%;
+}
+
+h3
+{
+    font-size: 30px;
+}
+
+.cont-recien-hecho-2
+{
+    width: 65%;
+    height: auto;
+    float: right;
+    margin-top: 70px;
+    margin-left: 0px;
+    margin-right: 7px;
+    font-size: 20px;
+    color: #3c3c3b;
+}
+
+/*TERCER ICONO*/
+.cont-ofertas-3
+{
+    width: 50%;
+    height: 300px;
+    float: left;
+    position: relative;
+}
+
+.icono3
+{
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 0%;
+}
+
+h3
+{
+    font-size: 30px;
+}
+
+.cont-recien-hecho-3
+{
+    width: 65%;
+    height: auto;
+    float: right;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 7px;
+    font-size: 20px;
+    color: #3c3c3b;
+}
+
+/*CUARTO ICONO*/
+.cont-ofertas-4
+{
+    width: 50%;
+    height: 300px;
+    float: right;
+    position: relative;
+}
+
+.icono4
+{
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 0%;
+}
+
+h3
+{
+    font-size: 30px;
+}
+
+.cont-recien-hecho-4
+{
+    width: 65%;
+    height: auto;
+    float: right;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 7px;
+    font-size: 20px;
+    color: #3c3c3b;
+}
+/*ACABA APARTADO ICONOS DE OFERTAS*/
+
+#contacto
+{
+    width: 100%;
+    position: absolute;
+}
+.contacto-izq
+{
+    background-color: #ded6c0;
+     width: 50%;
+    height: 400px;
+    float: left;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}  
+
+.texto-contact
+{
+    color: #d03b40;
+    font-size: 20px;
+}
+
+.contacto-dere
+{
+    background-color: #d03b40;
+     width: 50%;
+     height: 400px;
+     float: right;
+     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+
+.texto-contact-dere
+{
+    color: #ded6c0;
+    font-size: 20px;
+}
+
+
+
+
